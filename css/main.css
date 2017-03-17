@@ -1,0 +1,44 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Abhaya Libre", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.logo {
+  text-align: center;
+  color: #fff;
+}
+
+.nav {
+  text-align: center;
+}
+
+.masthead {
+  background-color: #423ca3;
+}
+
+.btn {
+  background-color: #15114c;
+  border: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+}
